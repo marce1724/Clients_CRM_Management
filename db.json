@@ -1,0 +1,36 @@
+{
+  "clientes": [
+    {
+      "nombre": "Marcela Isabel Perez Perez",
+      "empresa": "CRM Customers",
+      "email": "marce17@crm.com",
+      "telefono": "50478956777",
+      "notas": "test de edicion de cliente",
+      "id": 1
+    },
+    {
+      "nombre": "Jhon",
+      "empresa": "Samsung",
+      "email": "Jhon@crm.com",
+      "telefono": "50478956",
+      "notas": "test post json server",
+      "id": 2
+    },
+    {
+      "nombre": "Hatyword",
+      "empresa": "Mac",
+      "email": "whrd@crm.com",
+      "telefono": "50478956",
+      "notas": "test post json server",
+      "id": 3
+    },
+    {
+      "nombre": "jean",
+      "empresa": "paul",
+      "email": "paul@french.es",
+      "telefono": "9562166",
+      "notas": "test of navigate",
+      "id": 5
+    }
+  ]
+}
