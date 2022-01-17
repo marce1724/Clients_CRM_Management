@@ -9,7 +9,7 @@ const Inicio = () => {
          const obtenerClientesAPI = async () =>{
 
              try{
-                 const url = 'http://localhost:4000/clientes'
+                 const url = 'https://my-json-server.typicode.com/marce1724/api_crm/clientes'
                  const respuesta = await fetch(url)
                  const resultado = await respuesta.json()
 
@@ -31,7 +31,7 @@ const Inicio = () => {
 
           if(confirmar){
              try {
-                  const url = `http://localhost:4000/clientes/${id}`
+                  const url = `https://my-json-server.typicode.com/marce1724/api_crm/clientes/${id}`
                   const respuesta = await fetch(url, {
                        method: 'DELETE'
                   })
